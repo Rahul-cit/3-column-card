@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+div h1{
+   margin-left: 50px;
+   margin-top: 100px;
+   display: block;
+   width: 185px;
+   font-family: arial;
+   text-shadow: 1px 1px rgb(26, 25, 25);
+}
+div p{
+    display: block;
+    width: 185px;
+    margin-left: 40px;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+    padding: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div{
+   
+    background-color: rgb(229, 157, 23);  
+    width: 250px;
+    display: inline-block;
+    margin-left: 200px;
+    margin-top: 70px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px 3px black;
+}
+div a{
+    margin: 15px;
+    display: block;
+    background-color: aliceblue;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(132, 81, 4);
+ 
+}
+
+.second{
+    width: 250px;
+    background-color: rgb(22, 96, 96);
+     margin-left: 0;
+    display: inline-block;
+
+}
+.second a{
+    color:  rgb(22, 96, 96) ;
+    margin-left: 60px;
+}
+.second p{
+    line-height: 26.3px;
+    margin-left: 20px;
+   
+}
+div a{
+    margin-left: 60px;
+    font-family: arial;
+    font-size: 15px;
+    transition: 0.6s;
+}
+.Third{
+    background-color: rgb(35, 53, 35);
+    margin-left: 0;
+    display: inline-block;
+}
+.Third p{
+    margin-left: 20px;
+
+}
+.Third a{
+    color: rgb(46, 74, 46);
+}
+body{
+    background-color: rgb(252, 246, 237);
+}
+div a:hover{
+    margin-left: 10px;
+    box-shadow: 1px 1px 1px 1px white;
+}
